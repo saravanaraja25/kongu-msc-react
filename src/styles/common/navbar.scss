@@ -1,0 +1,32 @@
+.main-navbar{
+    background-color: #16336D !important;
+    .nav-item{
+        margin: 0px 5px;
+    }
+    @media screen and (max-width:400px){
+        .navbar-brand{
+            a{
+                font-size: 17px;
+            }
+        }
+    }
+}
+.loader{
+    &::before{
+        content: " ";
+        width: 100%;
+        position: absolute;
+        top: 0;
+        border-top: 4px solid #6F73ED;
+        left: 0;
+        animation: load 1s;
+    }
+    @keyframes load {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+}
