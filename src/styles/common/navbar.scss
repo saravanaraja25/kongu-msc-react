@@ -1,13 +1,29 @@
-.main-navbar{
-    background-color: #16336D !important;
-    .nav-item{
-        margin: 0px 5px;
+.header{
+    .top-bar{
+        background-color: black;
     }
-    @media screen and (max-width:400px){
-        .navbar-brand{
-            a{
-                font-size: 17px;
+    .main-navbar{
+        background-color: #f2f2f2 !important;
+        color: black;
+        .nav-item{           
+            margin: 0px 5px;
+        }
+        @media screen and (max-width:400px){
+            .navbar-brand{
+                a{
+                    font-size: 17px;
+                }
             }
+        }
+    }
+    .logo{    
+        text-align: center;
+        a{
+            display: inline;
+        }
+        img{
+            max-width: 95px;
+            max-height: 95px;
         }
     }
 }
@@ -17,7 +33,7 @@
         width: 100%;
         position: absolute;
         top: 0;
-        border-top: 4px solid #6F73ED;
+        border-top: 4px solid #fff;
         left: 0;
         animation: load 1s;
     }
