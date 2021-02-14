@@ -1,0 +1,21 @@
+.stats{
+    background-image: url("../../img/mba-block.jpg");
+    // height: 50vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 0px;
+    .card-img{
+        background:#ffffff4d;
+        i{
+            font-size: 48px;
+        }
+        &:hover{
+            .single{
+                color: #081f46 !important;
+                background:white;
+                transition: 0.5s;
+            }
+        }
+    }
+}

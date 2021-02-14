@@ -7,7 +7,7 @@ function Footer() {
     };
     return (
         <div>
-            <MDBFooter color="blue" className="main-footer font-small pt-4 mt-4">
+            <MDBFooter color="blue" className="main-footer font-small pt-4">
                 <MDBContainer className="text-center text-md-left">
                     <MDBRow>
                         <MDBCol md="4">
