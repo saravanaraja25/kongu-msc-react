@@ -6,6 +6,10 @@ import 'mdbreact/dist/css/mdb.css';
 import App from './App';
 import './App.scss';
 import reportWebVitals from './reportWebVitals';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 
 ReactDOM.render(
   <React.StrictMode>
