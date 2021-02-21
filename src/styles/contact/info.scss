@@ -1,0 +1,20 @@
+.info{
+    .map-container {
+        height: 400px;
+        position: relative;
+    }
+
+      .map-container iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .blue-text{
+        color: #081f46 !important;
+    }
+    p{
+        font-weight: 600;
+    }
+}
