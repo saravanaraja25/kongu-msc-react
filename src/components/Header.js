@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import {
-    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer
+    MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer,MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import logo1 from '../img/logo1.jpg';
 import logo2 from '../img/logo2.png';
@@ -52,9 +52,9 @@ function Header() {
                 </div>
             </div>
             <MDBNavbar className={"main-navbar " +(scrolled ? 'fixed-top' : '')}  light expand="md">
-                <MDBContainer>
+                <div className="container-fluid">
                     <MDBNavbarBrand>
-                        <strong className="dark-text">M.Sc Software Systems</strong>
+                        <strong className="dark-text"><MDBNavLink className="brand p-0" onClick={loader} to="/">M.Sc Software Systems</MDBNavLink></strong>
                     </MDBNavbarBrand>
                     <MDBNavbarToggler onClick={toggleCollapse} />
                     <MDBCollapse id="navbarCollapse3" isOpen={isOpen}  navbar>
@@ -64,13 +64,37 @@ function Header() {
                             </MDBNavItem>
                             <MDBNavItem>
                                 <MDBNavLink onClick={loader} to="/about">About</MDBNavLink>
+                            </MDBNavItem>                            
+                            <MDBNavItem>
+                                <MDBDropdown>
+                                    <MDBDropdownToggle nav caret>
+                                        <span className="mr-2">Academics</span>
+                                        <MDBDropdownMenu>
+                                            <MDBDropdownItem>
+                                                <MDBNavLink onClick={loader} to="/whymsc">Why MSc @ KEC</MDBNavLink>
+                                            </MDBDropdownItem>
+                                            <MDBDropdownItem>
+                                                <MDBNavLink onClick={loader} to="/academics">Curriculum</MDBNavLink>
+                                            </MDBDropdownItem>
+                                            <MDBDropdownItem>
+                                                <MDBNavLink onClick={loader} to="/academics">Placements</MDBNavLink>
+                                            </MDBDropdownItem>
+                                        </MDBDropdownMenu>
+                                    </MDBDropdownToggle>
+                                </MDBDropdown>
+                            </MDBNavItem>
+                            <MDBNavItem>
+                                <MDBNavLink onClick={loader} to="/gallery">Gallery</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem >
                                 <MDBNavLink onClick={loader} to="/contact">Contact</MDBNavLink>
                             </MDBNavItem>
+                            <MDBNavItem >
+                                <MDBNavLink className="bg-dark text-white" onClick={loader} to="/admission">Admission</MDBNavLink>
+                            </MDBNavItem>
                         </MDBNavbarNav>
                     </MDBCollapse>
-                </MDBContainer>
+                </div>
             </MDBNavbar>
         </div>
     )

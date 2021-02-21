@@ -104,7 +104,7 @@ function Home() {
                             pagination={{ clickable: true }}
                             breakpoints={{
                                 // when window width is >= 640px
-                                500: {
+                                768: {
                                 slidesPerView: 2,
                                 },
                             }}           

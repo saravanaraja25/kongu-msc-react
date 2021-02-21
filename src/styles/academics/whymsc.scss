@@ -1,0 +1,22 @@
+.whymsc{
+    .hero{
+        background-image: url("../../img/mba-block.jpg");
+        // height: 50vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 70px 40px;
+    }
+    ul{
+        font-size: 17px;
+        line-height: 2.1;
+        font-weight: 500;
+        li{
+            list-style: square;
+            // &::before{
+            //     content: "→ ";                
+            //     font-size: 1.3em;
+            // }
+        }
+    }
+}

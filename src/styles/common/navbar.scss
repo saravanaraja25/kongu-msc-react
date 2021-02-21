@@ -11,6 +11,9 @@
                 font-weight: 500;
             }
         }
+        .brand{
+            color: black !important;
+        }
         @media screen and (max-width:400px){
             .navbar-brand{
                 a{
@@ -49,3 +52,9 @@
         }
     }
 }
+// @media screen and (max-width: 900px){
+//     .navbar-expand-md .navbar-toggler {
+//         display: block;
+//     }
+    
+// }
