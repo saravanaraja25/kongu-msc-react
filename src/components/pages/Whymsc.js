@@ -9,10 +9,10 @@ function Whymsc() {
                         <h1>Why MSc @ KEC</h1>
                     </div>
                 </div>
-                <div className="row mt-4 mb-5">
-                    <div className="container">
+                <div className="container">
+                    <div className="row mt-4 mb-5">
                         <div className="col-12">
-                            <ul data-aos="fade-up">
+                            <ul data-aos="fade-up" className="ml-5">
                                 <li>Erstwhile known as M.Sc( Software Engineering)</li>
                                 <li>Direct PG course</li>
                                 <li>Real Substitute for Engineering</li>

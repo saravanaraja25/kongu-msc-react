@@ -24,6 +24,7 @@ function Header() {
         1500
     );
     const loader=()=>{
+        setisOpen(false)
         setisLoading(true)
         setTimeout(
             () => setisLoading(false), 
@@ -83,9 +84,9 @@ function Header() {
                                     </MDBDropdownToggle>
                                 </MDBDropdown>
                             </MDBNavItem>
-                            <MDBNavItem>
+                            {/* <MDBNavItem>
                                 <MDBNavLink onClick={loader} to="/gallery">Gallery</MDBNavLink>
-                            </MDBNavItem>
+                            </MDBNavItem> */}
                             <MDBNavItem >
                                 <MDBNavLink onClick={loader} to="/contact">Contact</MDBNavLink>
                             </MDBNavItem>

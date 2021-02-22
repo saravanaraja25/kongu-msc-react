@@ -26,7 +26,7 @@ function Footer() {
                             <h4 className="title">Address</h4>
                             <div className=" d-flex mt-4">
                                 <i className="fas fa-map-marker-alt mr-2 mt-1 white-text"></i>
-                                <p className="text-white">Department of CT-PG,MBA/MCA Block,Kongu Engineering College Perundurai-638052.</p>
+                                <p className="text-white text-left">Department of CT-PG,MBA/MCA Block,Kongu Engineering College Perundurai-638052.</p>
                             </div>
                             <div className=" d-flex">
                                 <i className="fas fa-phone mr-2 mt-1 white-text"></i>

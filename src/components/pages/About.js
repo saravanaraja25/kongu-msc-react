@@ -29,7 +29,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div data-aos="zoom-out-down" className="highlights mb-5">
+            <div data-aos="fade-down" className="highlights mb-5">
                 <div className="container d-md-block d-none desktop">
                     <h2 className="text-center mb-4">Highlights</h2>
                     <div className="row">
@@ -79,7 +79,7 @@ function About() {
                     <h2 className="text-center mb-4">Highlights</h2>
                         <div className="row">
                             <div className="col">
-                                <ul className="ml-3">
+                                <ul className="ml-5">
                                     <li>MSc Computer Technology started in the year 1997</li>
                                     <li>MSc Software Engineering (Integrated – 5 Years) started in the year 1998</li>
                                     <li>MSc Information Technology started in the year 2003</li>

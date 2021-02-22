@@ -116,7 +116,7 @@ function Home() {
                                         alt="testi1"/>
                                     </div>
                                     <div className="card-body">
-                                        <h4 className="card-title text-center">Kalpana</h4>
+                                        <h4 className="card-title text-center">Kasthuri</h4>
                                         <h5 className="text-center">Application Security Specialist</h5>
                                         <h6 className="text-center">Cognizant</h6>
                                         <hr />
