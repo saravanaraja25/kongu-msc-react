@@ -97,10 +97,10 @@ function About() {
                 <div className="container">
                     <h2 className="text-center mb-4">HOD Profile</h2>
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-4 mb-3">
                             <img className="w-100" src="https://sites.google.com/a/kongu.edu/dr-p-balasubramanie-ctpg/_/rsrc/1453544717027/home/photo-Dr.P.B.JPG" alt="hod"/>
                         </div>
-                        <div className="col-md-8 mt-3">
+                        <div className="col-md-8">
                             <h2>Dr P Balasubramanie</h2>
                             <h6 className="mt-1">Head of the Department</h6>
                             <p className="text-justify mt-3">
