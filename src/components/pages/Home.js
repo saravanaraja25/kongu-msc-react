@@ -112,7 +112,7 @@ function Home() {
                             <SwiperSlide>
                                 <div className="card testimonial-card">                                
                                     <div className="avatar d-flex justify-content-center white">
-                                        <img src={testi1} className="w-25 mt-3 rounded"
+                                        <img src={testi1} height="150" className="w-25 mt-3 rounded"
                                         alt="testi1"/>
                                     </div>
                                     <div className="card-body">
@@ -128,7 +128,7 @@ function Home() {
                             <SwiperSlide>
                                 <div className="card testimonial-card">                               
                                     <div className="avatar d-flex justify-content-center white">
-                                        <img src={testi2} className="w-25 mt-3 rounded"
+                                        <img src={testi2} height="150" className="w-25 mt-3 rounded"
                                         alt="testi2"/>
                                     </div>
                                     <div className="card-body">
