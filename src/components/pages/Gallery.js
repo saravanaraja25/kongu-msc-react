@@ -1,5 +1,5 @@
 import React from 'react'
-import Lightbox from 'react-lightbox-component';
+// import Lightbox from 'react-lightbox-component';
 // import img1 from '../../img/gallery/1.jpg'
 // import img2 from '../../img/gallery/2.JPG'
 // import img3 from '../../img/gallery/3.JPG'
