@@ -75,10 +75,10 @@ function Header() {
                                                 <MDBNavLink onClick={loader} to="/whymsc">Why MSc @ KEC</MDBNavLink>
                                             </MDBDropdownItem>
                                             <MDBDropdownItem>
-                                                <MDBNavLink onClick={loader} to="/academics">Curriculum</MDBNavLink>
+                                                <MDBNavLink onClick={loader} to="/curriculum">Curriculum</MDBNavLink>
                                             </MDBDropdownItem>
                                             <MDBDropdownItem>
-                                                <MDBNavLink onClick={loader} to="/academics">Placements</MDBNavLink>
+                                                <MDBNavLink onClick={loader} to="/placements">Placements</MDBNavLink>
                                             </MDBDropdownItem>
                                         </MDBDropdownMenu>
                                     </MDBDropdownToggle>
