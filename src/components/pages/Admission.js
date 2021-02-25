@@ -46,7 +46,7 @@ function Admission() {
     }
 
     return (
-        <div className="admission-section">
+        <div data-aos="fade-up" className="admission-section">
             <div  className="jumbotron hero">
                 <div className="container">
                     <h1>Admission Enquiry Form</h1>

@@ -7,6 +7,7 @@ import Whymsc from "./pages/Whymsc";
 import gallery from "./pages/Gallery"
 import curriculum from './pages/Curriculum';
 import admission from './pages/Admission'
+import Placement from './pages/Placement';
 
 function Body() {
     return (
@@ -19,6 +20,7 @@ function Body() {
                 <Route path="/gallery" component={gallery} exact />
                 <Route path="/curriculum" component={curriculum} exact />
                 <Route path="/admission" component={admission} exact />
+                <Route path="/placements" component={Placement} exact />
             </Switch>
         </div>        
     )
