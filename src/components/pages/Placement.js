@@ -12,7 +12,7 @@ function Placement() {
             </div>
             <div className="container">
                 <h2 className="text-center mb-3">List of Students Placed 2021 Batch</h2>
-                <h5 className="mb-4 text-center"><a className="text-center" href="https://drive.google.com/file/d/1FI7OL5LtkxJEQHHwEJCtAXlg3HfDVhl9/view?usp=sharing">Click Here To View The Full List</a></h5>
+                <h5 className="mb-4 text-center"><a className="text-center" href="https://drive.google.com/file/d/1FI7OL5LtkxJEQHHwEJCtAXlg3HfDVhl9/view?usp=sharing">Click Here To View More Details</a></h5>
                 <div className="row">
                     {student.map((fac,key)=>(
                         <div data-aos="zoom-in" className="col-lg-4 col-sm-6 mb-5">
