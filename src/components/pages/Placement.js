@@ -21,7 +21,7 @@ function Placement() {
                                     <img
                                     src={fac.image}
                                     className="img-fluid w-75  z-depth-1"
-                                    alt="staff"
+                                    alt="students"
                                     />
                                 </div>
                                 <div className="col-7">

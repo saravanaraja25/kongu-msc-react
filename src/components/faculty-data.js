@@ -15,7 +15,7 @@ function faculties(){
         {
             name:"Dr.P.Ananthi",
             designation:"Assistant Professor(SLG)",
-            image:"https://ab84aa77-a-52cbdf96-s-sites.googlegroups.com/a/kongu.edu/ananthip/home/4.P.Ananthi_%2819.7KB%29.jpg",
+            image:"https://sites.google.com/a/kongu.edu/ananthip/_/rsrc/1453801347855/home/4.P.Ananthi_(19.7KB).jpg",
             link:"https://sites.google.com/a/kongu.edu/ananthip/"
         },
         {
